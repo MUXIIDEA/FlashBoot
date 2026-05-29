@@ -178,7 +178,7 @@ MIT License
 
 ## 作者
 
-FlashBoot Development Team
+TheBUGMUXI
 =======
 # FlashBoot
 >>>>>>> 2ac2e8d94ab719b3a4dd6cfae392d3e811225e38
