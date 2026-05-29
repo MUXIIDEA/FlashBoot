@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "F:/Qt/6.11.1/msvc2022_64/include/**"
+            ],
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}

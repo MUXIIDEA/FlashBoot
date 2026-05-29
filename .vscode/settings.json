@@ -1,0 +1,6 @@
+{
+    "cmake.sourceDirectory": "C:/Users/26479/Desktop/re/FlashBoot",
+    "cmake.configureSettings": {
+        "CMAKE_PREFIX_PATH": "F:/Qt/6.11.1/msvc2022_64"
+    }
+}

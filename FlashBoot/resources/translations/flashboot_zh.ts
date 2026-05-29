@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="zh_CN">
+<context>
+    <name>MainWindow</name>
+    <message>
+        <source>Ready</source>
+        <translation>准备就绪</translation>
+    </message>
+    <message>
+        <source>FlashBoot v</source>
+        <translation>FlashBoot v</translation>
+    </message>
+</context>
+<context>
+    <name>DevicePanel</name>
+    <message>
+        <source>设备</source>
+        <translation>设备</translation>
+    </message>
+    <message>
+        <source>设备信息</source>
+        <translation>设备信息</translation>
+    </message>
+    <message>
+        <source>格式化选项</source>
+        <translation>格式化选项</translation>
+    </message>
+    <message>
+        <source>文件系统</source>
+        <translation>文件系统</translation>
+    </message>
+    <message>
+        <source>簇大小</source>
+        <translation>簇大小</translation>
+    </message>
+    <message>
+        <source>卷标</source>
+        <translation>卷标</translation>
+    </message>
+</context>
+<context>
+    <name>ConfigPanel</name>
+    <message>
+        <source>选择启动镜像</source>
+        <translation>选择启动镜像</translation>
+    </message>
+    <message>
+        <source>分区方案和目标系统类型</source>
+        <translation>分区方案和目标系统类型</translation>
+    </message>
+    <message>
+        <source>格式化选项</source>
+        <translation>格式化选项</translation>
+    </message>
+    <message>
+        <source>浏览...</source>
+        <translation>浏览...</translation>
+    </message>
+    <message>
+        <source>下载镜像</source>
+        <translation>下载镜像</translation>
+    </message>
+    <message>
+        <source>验证镜像</source>
+        <translation>验证镜像</translation>
+    </message>
+    <message>
+        <source>分区方案:</source>
+        <translation>分区方案:</translation>
+    </message>
+    <message>
+        <source>目标系统:</source>
+        <translation>目标系统:</translation>
+    </message>
+    <message>
+        <source>快速格式化</source>
+        <translation>快速格式化</translation>
+    </message>
+    <message>
+        <source>创建扩展标签和图标文件</source>
+        <translation>创建扩展标签和图标文件</translation>
+    </message>
+    <message>
+        <source>检查设备坏块 (耗时较长)</source>
+        <translation>检查设备坏块 (耗时较长)</translation>
+    </message>
+    <message>
+        <source>使用固定驱动器号</source>
+        <translation>使用固定驱动器号</translation>
+    </message>
+</context>
+</TS>

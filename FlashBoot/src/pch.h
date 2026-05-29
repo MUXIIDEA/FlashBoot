@@ -1,0 +1,189 @@
+#ifndef PCH_H
+#define PCH_H
+
+#include <QApplication>
+#include <QMainWindow>
+#include <QWidget>
+#include <QDialog>
+#include <QThread>
+#include <QMutex>
+#include <QMutexLocker>
+#include <QWaitCondition>
+#include <QSemaphore>
+#include <QRunnable>
+#include <QThreadPool>
+#include <QObject>
+#include <QMetaObject>
+#include <QDebug>
+#include <QTimer>
+#include <QDateTime>
+#include <QTime>
+#include <QElapsedTimer>
+#include <QFile>
+#include <QFileInfo>
+#include <QDir>
+#include <QIODevice>
+#include <QDataStream>
+#include <QTextStream>
+#include <QBuffer>
+#include <QProcess>
+#include <QSettings>
+#include <QJsonDocument>
+#include <QJsonObject>
+#include <QJsonArray>
+#include <QXmlStreamReader>
+#include <QUrl>
+#include <QUrlQuery>
+#include <QNetworkAccessManager>
+#include <QNetworkRequest>
+#include <QNetworkReply>
+#include <QEventLoop>
+#include <QMimeData>
+#include <QDragEnterEvent>
+#include <QDropEvent>
+#include <QClipboard>
+#include <QGuiApplication>
+#include <QScreen>
+#include <QWindow>
+#include <QStyle>
+#include <QStyleFactory>
+#include <QPalette>
+#include <QFont>
+#include <QFontMetrics>
+#include <QPainter>
+#include <QPainterPath>
+#include <QPen>
+#include <QBrush>
+#include <QColor>
+#include <QLinearGradient>
+#include <QRadialGradient>
+#include <QPixmap>
+#include <QImage>
+#include <QIcon>
+#include <QCursor>
+#include <QMouseEvent>
+#include <QKeyEvent>
+#include <QWheelEvent>
+#include <QResizeEvent>
+#include <QMoveEvent>
+#include <QShowEvent>
+#include <QHideEvent>
+#include <QCloseEvent>
+#include <QPaintEvent>
+#include <QFocusEvent>
+
+#include <QPushButton>
+#include <QToolButton>
+#include <QCheckBox>
+#include <QRadioButton>
+#include <QComboBox>
+#include <QLineEdit>
+#include <QTextEdit>
+#include <QPlainTextEdit>
+#include <QSpinBox>
+#include <QDoubleSpinBox>
+#include <QSlider>
+#include <QProgressBar>
+#include <QLabel>
+#include <QGroupBox>
+#include <QFrame>
+#include <QScrollArea>
+#include <QStackedWidget>
+#include <QTabWidget>
+#include <QListWidget>
+#include <QTreeWidget>
+#include <QTableWidget>
+#include <QHeaderView>
+#include <QSplitter>
+#include <QMenu>
+#include <QMenuBar>
+#include <QToolBar>
+#include <QStatusBar>
+#include <QSystemTrayIcon>
+#include <QMessageBox>
+#include <QFileDialog>
+#include <QInputDialog>
+#include <QProgressDialog>
+#include <QWizard>
+#include <QWizardPage>
+#include <QFormLayout>
+#include <QVBoxLayout>
+#include <QHBoxLayout>
+#include <QGridLayout>
+#include <QStackedLayout>
+#include <QSpacerItem>
+#include <QSizePolicy>
+#include <QAction>
+#include <QActionGroup>
+#include <QShortcut>
+#include <QKeySequence>
+
+#include <string>
+#include <vector>
+#include <map>
+#include <unordered_map>
+#include <set>
+#include <unordered_set>
+#include <list>
+#include <deque>
+#include <array>
+#include <tuple>
+#include <optional>
+#include <variant>
+#include <memory>
+#include <functional>
+#include <algorithm>
+#include <numeric>
+#include <iterator>
+#include <fstream>
+#include <sstream>
+#include <iostream>
+#include <iomanip>
+#include <chrono>
+#include <thread>
+#include <mutex>
+#include <shared_mutex>
+#include <condition_variable>
+#include <future>
+#include <atomic>
+#include <regex>
+#include <type_traits>
+#include <typeinfo>
+#include <stdexcept>
+#include <exception>
+#include <cassert>
+#include <cstdint>
+#include <cstddef>
+#include <cstring>
+#include <cwchar>
+#include <cmath>
+
+#ifdef Q_OS_WIN
+    #ifndef NOMINMAX
+        #define NOMINMAX
+    #endif
+    #ifndef WIN32_LEAN_AND_MEAN
+        #define WIN32_LEAN_AND_MEAN
+    #endif
+    #include <windows.h>
+    #include <windowsx.h>
+    #include <winioctl.h>
+    #include <dbt.h>
+    #include <setupapi.h>
+    #include <cfgmgr32.h>
+    #include <initguid.h>
+    #include <guiddef.h>
+    #include <shlobj.h>
+    #include <shlwapi.h>
+    #include <shellapi.h>
+    #include <commdlg.h>
+    #include <commctrl.h>
+    #include <virtdisk.h>
+    #include <ntddscsi.h>
+    #include <ntddstor.h>
+    #pragma comment(lib, "setupapi.lib")
+    #pragma comment(lib, "cfgmgr32.lib")
+    #pragma comment(lib, "virtdisk.lib")
+#endif
+
+#endif // PCH_H
